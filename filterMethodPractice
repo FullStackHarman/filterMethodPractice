@@ -1,0 +1,167 @@
+
+/* ----------------------DIFFICULTY LEVEL EASY---------------------- */
+
+function filterEvenNumbers(numbers) {
+  // Your code here
+}
+// Example usage:
+filterEvenNumbers([1, 2, 3, 4, 5, 6]);
+
+
+function filterUpperCase(strings) {
+    // Your code here
+  }
+  // Example usage:
+  filterUpperCase(['abc', 'Hello', 'world', 'JavaScript']);
+
+  
+  function filterPositiveNumbers(numbers) {
+    // Your code here
+  }
+  // Example usage:
+  filterPositiveNumbers([-1, 2, -3, 4, -5, 6]);
+
+  function filterLongWords(words, minLength) {
+    // Your code here
+  }
+  // Example usage:
+  filterLongWords(['apple', 'banana', 'grape', 'kiwi'], 5);
+
+  
+  function filterObjectsByProperty(objects, propertyName) {
+    // Your code here
+  }
+  // Example usage:
+  filterObjectsByProperty([{ name: 'John', age: 25 }, { age: 30 }, { name: 'Alice', age: 28 }], 'name');
+
+
+  /* ----------------------DIFFICULTY LEVEL MEDIUM---------------------- */
+
+
+  function filterPositiveNumbers(numbers) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputArray = [3, -1, 0, 8, -4, 2];
+  const result = filterPositiveNumbers(inputArray);
+  console.log(result); // Expected output: [3, 8, 2]
+
+  
+  function filterEvenLengthStrings(strings) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputStrings = ['apple', 'banana', 'kiwi', 'orange', 'grape'];
+  const result = filterEvenLengthStrings(inputStrings);
+  console.log(result); // Expected output: ['banana', 'orange']
+
+  
+
+  function filterObjectsByProperty(objects, propertyName, propertyValue) {
+    return objects.filter(obj => obj[propertyName] === propertyValue);
+  }
+  
+  // Example usage:
+  const inputObjects = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 30 },
+    { name: 'Charlie', age: 20 },
+    { name: 'David', age: 25 }
+  ];
+  
+  const result = filterObjectsByProperty(inputObjects, 'age', 25);
+  console.log(result);
+  // Expected output: [{ name: 'Alice', age: 25 }, { name: 'David', age: 25 }]
+
+  
+  function filterPalindromes(strings) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputStrings = ['level', 'hello', 'radar', 'world', 'civic'];
+  const result = filterPalindromes(inputStrings);
+  console.log(result); // Expected output: ['level', 'radar', 'civic']
+
+  
+  function filterUniqueValues(numbers) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputArray = [1, 2, 3, 2, 4, 5, 1, 6];
+  const result = filterUniqueValues(inputArray);
+  console.log(result); // Expected output: [1, 2, 3, 4, 5, 6]
+  
+
+
+
+
+
+
+  /* ----------------------DIFFICULTY LEVEL HARD---------------------- */
+  
+
+  function filterPrimeNumbers(numbers) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputArray = [2, 3, 8, 11, 15, 17, 20];
+  const result = filterPrimeNumbers(inputArray);
+  console.log(result); // Expected output: [2, 3, 11, 17]
+
+  
+
+  function filterAnagrams(strings) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputStrings = ['listen', 'silent', 'enlist', 'hello', 'world'];
+  const result = filterAnagrams(inputStrings);
+  console.log(result); // Expected output: [['listen', 'silent', 'enlist']]
+
+  
+  function filterConsecutiveDuplicates(numbers) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputArray = [1, 2, 2, 3, 4, 4, 4, 5];
+  const result = filterConsecutiveDuplicates(inputArray);
+  console.log(result); // Expected output: [1, 2, 3, 4, 5]
+
+  
+
+
+  function filterArraysByLength(arrayOfArrays, targetLength) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputArrays = [[1, 2, 3], ['apple', 'orange'], [true, false], [4, 5]];
+  const result = filterArraysByLength(inputArrays, 3);
+  console.log(result); // Expected output: [[1, 2, 3], ['apple', 'orange']]
+
+  
+
+
+  function filterObjectsByCriteria(objects, propertyNames, propertyValues) {
+    // Your code here
+  }
+  
+  // Example usage:
+  const inputObjects = [
+    { name: 'Alice', age: 25, country: 'USA' },
+    { name: 'Bob', age: 30, country: 'Canada' },
+    { name: 'Charlie', age: 20, country: 'USA' },
+    { name: 'David', age: 25, country: 'UK' }
+  ];
+  
+  const result = filterObjectsByCriteria(inputObjects, ['age', 'country'], [25, 'USA']);
+  console.log(result);
+  // Expected output: [{ name: 'Alice', age: 25, country: 'USA' }]
+  
